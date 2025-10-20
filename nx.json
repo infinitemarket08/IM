@@ -3,10 +3,11 @@
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": ["default"],
-    "sharedGlobals": []
+    "sharedGlobals": [],
   },
   "plugins": [
     {
+      "plugin": "@nx/js/typescript",
       "plugin": "@nx/js/typescript",
       "options": {
         "typecheck": { "targetName": "typecheck" },
